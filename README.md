@@ -26,7 +26,7 @@ This Python script automates the process of sending personalized job application
 ## Setup and Usage:
 
 ### Step 1: Prepare Your Files
-1. **Create a CSV File (`**recipients.csv**`)**:
+1. **Create a CSV File (`recipients.csv`)**:
    - The CSV file should have the following format:
    
    ```csv
@@ -64,17 +64,14 @@ After running the script, it will send personalized emails to all recipients lis
 
 The terminal will show a success or failure message for each email sent.
 
-Troubleshooting:
+**Troubleshooting**:
 FileNotFoundError: Ensure that the recipients.csv and resume.pdf are in the same directory as the script.
 
-App Password Error: Double-check that you’ve generated the correct App Password for your Gmail account and that 2-Step Verification is enabled.
+**App Password Error**: Double-check that you’ve generated the correct App Password for your Gmail account and that 2-Step Verification is enabled.
 
-Notes:
+**Notes**:
 The script uses Gmail's SMTP server (smtp.gmail.com) with port 587.
 
 If you plan to send a large number of emails, consider using an email service like SendGrid to avoid Gmail's sending limits.
 
 This script is for educational purposes. Make sure to use it responsibly and avoid sending spam emails.
-
-License:
-This project is licensed under the MIT License - see the LICENSE file for details.
