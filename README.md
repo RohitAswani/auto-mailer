@@ -26,7 +26,7 @@ This Python script automates the process of sending personalized job application
 ## Setup and Usage:
 
 ### Step 1: Prepare Your Files
-1. **Create a CSV File (`recipients.csv`)**:
+1. **Create a CSV File (`**recipients.csv**`)**:
    - The CSV file should have the following format:
    
    ```csv
@@ -38,7 +38,7 @@ Each row should contain the recipient's name and email address.
 
 Place Your Resume:
 
-Place your resume in PDF format in the same directory as the script. The file should be named resume.pdf (you can change the name in the script if needed).
+Place your resume in PDF format in the same directory as the script. The file should be named **resume.pdf** (you can change the name in the script if needed).
 
 Step 2: Configure the Script
 Open the script mailer.py in a text editor.
