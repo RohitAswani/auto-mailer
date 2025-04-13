@@ -49,10 +49,12 @@ sender_email: Your Gmail email address.
 
 app_password: The App Password you generated in Step 1.
 
-Ensure your resume's filename is correct in resume_path (if not resume.pdf).
+Ensure your resume's filename is correct in resume_path (if not **resume.pdf**).
 
 Step 3: Run the Script
 Place mailer.py, recipients.csv, and resume.pdf in the same directory.
+![image](https://github.com/user-attachments/assets/3b8ba8b8-5941-48f0-95dc-0393640671e1)
+
 
 Open a terminal or command prompt in that directory.
 
